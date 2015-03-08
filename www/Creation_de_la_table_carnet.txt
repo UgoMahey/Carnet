@@ -1,0 +1,12 @@
+Creation de la table carnet dans la base de donnée mysql (grâce à phpMyAdmin).
+
+
+CREATE TABLE mysql.carnet (
+idContact INT(11) AUTO_INCREMENT PRIMARY KEY,
+nom VARCHAR(30),
+prenom VARCHAR(30),
+ville VARCHAR(30),
+codepostal int(11),
+pays Varchar(30),
+tel Varchar(20)    
+) 
